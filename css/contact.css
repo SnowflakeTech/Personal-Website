@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact .titleContact {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+}
+
+.contact form {
+    width: 500px;
+    text-align: center;
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 12px 0;
+}
+
+.field .item::placeholder {
+    color: rgba(255, 255, 255);
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form button {
+    padding: 12px 32px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px white;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button::hover {
+    
+}
